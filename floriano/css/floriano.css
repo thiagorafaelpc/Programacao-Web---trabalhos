@@ -40,8 +40,12 @@ h3 {
 	text-align:center;
 }
 .obj{
-	text-indent: 50px;	
+	text-indent: 50px;
 }
 .bloco{
 	border-bottom: solid 1px #CCCCCC;
+}
+footer {
+	font-style: italic;
+	text-align: right;
 }
