@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Boletim Escolar</title>
+		<link rel="stylesheet" type="text/css" href="reset.css">
+		<link rel="stylesheet" type="text/css" href="boletim.css">
+	</head>
+	<body>
+		<section class="container">
+				<figure><img src="logo2.png" alt="Instituto Federal do Piauí" /></figure>
+				<h2>Boletim Escolar</h2>
+				<table>
+					<tr>
+						<th>Nome</th>
+						<th>Nota 1</th>
+						<th>Nota 2</th>
+						<th>Média</th>
+						<th>Situação</th>
+					</tr>
+					<tr class="aluno">
+						<td class="info-nome" id="nome-1">Leonardo</td>
+						<td class="info-nota01" id="nota01-1">7.5</td>
+						<td class="info-nota02" id="nota02-1">8</td>
+						<td class="info-media" id="media-1"></td>
+						<td class="info-situacao" id="situacao-1"></td>
+					</tr>
+					<tr class="aluno">
+						<td class="info-nome" id="nome-2">Romário</td>
+						<td class="info-nota01" id="nota01-2">5.3</td>
+						<td class="info-nota02" id="nota02-2">8.7</td>
+						<td class="info-media" id="media-2"></td>
+						<td class="info-situacao" id="situacao-2"></td>
+					</tr>
+				</table>
+				<button id="calcular-medias" class="botao ">Calcular Médias</button>
+		</section>
+		<section class="container">
+				<h2>Adicionar novo aluno</h2>
+				<form>
+					<fieldset>
+						<label for="nome">Nome:</label>
+						<input id="campo-nome" type="text" placeholder="digite o nome do aluno">
+					</fieldset>
+					<fieldset class="campo-medio">
+						<label for="nota1">Nota 1:</label>
+						<input id="campo-nota1" type="text" placeholder="digite a nota 1">
+					</fieldset>
+					<fieldset class="campo-medio">
+						<label for="nota2">Nota 2:</label>
+						<input id="campo-nota2" type="text" placeholder="digite a nota 2">
+					</fieldset>
+					<button id="adicionar-aluno" class="botao bto-principal">Adicionar</button>
+				</form>
+		</section>
+
+		<!--<script src="percorre.js"></script>-->
+		<!--<script src="calcula-imc.js"></script>-->
+		<!--<script src="imprime-nome.js"></script>-->
+		<script src="calcula-medias.js"></script>
+		<script src="adiciona.js"></script>
+	</body>
+</html>
